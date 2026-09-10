@@ -22,7 +22,7 @@ const ForgotPassword = () => {
     try
     {
       e.preventDefault();
-      const result = await axios.get(`http://localhost:3000/users/?email=${email}`);
+      const result = await axios.get(`https://calon-5qpc.onrender.com/users/?email=${email}`);
       //console.log(result.data[0].password);
 
       if (result.data.length > 0)

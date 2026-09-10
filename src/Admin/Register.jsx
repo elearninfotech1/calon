@@ -25,7 +25,7 @@ const Register = () => {
     try
     {
       e.preventDefault();
-      const result = await axios.post(`http://localhost:3000/users`, data);
+      const result = await axios.post(`https://calon-5qpc.onrender.com/users`, data);
       alert("Registered Successfully");
       navigate('/admin');
     }

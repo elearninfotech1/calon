@@ -4,7 +4,7 @@ import axios from 'axios'
 import useFetchData from './FetchData';
 import { Link } from 'react-router-dom';
 const Services = () => {
-    const data=useFetchData('http://localhost:3000/services');//
+    const data=useFetchData('https://calon-5qpc.onrender.com/services');//
     return (
       <>
         <section className={mainStyles.bread}>

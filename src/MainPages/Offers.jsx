@@ -3,7 +3,7 @@ import mainStyles from './mainStyles.module.css'
 import axios from 'axios'
 import useFetchData from './FetchData';
 const Offers = () => {
-    const data=useFetchData('http://localhost:3000/offers');
+    const data=useFetchData('https://calon-5qpc.onrender.com/offers');
     return (
       <>
         <section className={mainStyles.bread}>

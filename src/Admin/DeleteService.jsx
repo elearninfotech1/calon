@@ -9,7 +9,7 @@ const DeleteService = () => {
     const fetchSericeData = async () => {
         try
         {
-            const sdata = await axios.get(`http://localhost:3000/services`);
+            const sdata = await axios.get(`https://calon-5qpc.onrender.com/services`);
             setData(sdata.data);
         }
         catch (error) {

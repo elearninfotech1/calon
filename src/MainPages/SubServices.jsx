@@ -7,7 +7,7 @@ const SubServices = () => {
 
     const { sername } = useParams();
     
-    const data=useFetchData(`http://localhost:3000/subservices/?sname=${sername}`);//
+    const data=useFetchData(`https://calon-5qpc.onrender.com/subservices/?sname=${sername}`);//
     return (
       <>
         <section className={mainStyles.bread}>

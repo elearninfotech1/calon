@@ -18,7 +18,7 @@ const AddService = () => {
         try
         {
             e.preventDefault();
-            const sdata = await axios.post(`http://localhost:3000/services`, data); 
+            const sdata = await axios.post(`https://calon-5qpc.onrender.com/services`, data); 
             alert("Service Added Successfully");
             setData({
                 sname: "",

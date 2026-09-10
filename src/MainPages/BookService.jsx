@@ -28,7 +28,7 @@ const BookService = () => {
   const submitHandler = async (e) => {
     try {
       e.preventDefault();
-      const sdata = await axios.post(`http://localhost:3000/servicedata`, data);
+      const sdata = await axios.post(`https://calon-5qpc.onrender.com/servicedata`, data);
       alert("Service Booked Successfully");
       setData({
         sname: "",

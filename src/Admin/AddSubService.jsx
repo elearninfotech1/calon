@@ -20,7 +20,7 @@ const AddSubService = () => {
         try
         {
             e.preventDefault();
-            const sdata = await axios.post(`http://localhost:3000/subservices`, data); 
+            const sdata = await axios.post(`https://calon-5qpc.onrender.com/subservices`, data); 
             alert("Sub Service Added Successfully");
             setData({
                 sname: "",
